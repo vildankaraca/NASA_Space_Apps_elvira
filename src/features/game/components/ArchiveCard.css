@@ -1,0 +1,57 @@
+.archive-dialog { width:min(540px,calc(100vw - 24px)); height:min(790px,calc(100dvh - 28px)); max-width:none; max-height:none; padding:0; border:4px solid #fcd34d; border-radius:0; background:linear-gradient(140deg,#3d3156,#11172a); color:#eee; box-shadow:8px 8px 0 #05040a,0 0 55px #a855f744; overflow:hidden; font:14px/1.7 'Space Mono',monospace; }
+.archive-dialog[open] { display:flex; flex-direction:column; }
+.archive-dialog::backdrop { background:#02030bdb; backdrop-filter:blur(5px); }
+.archive-dialog * { box-sizing:border-box; }
+.archive-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:14px 20px 4px; flex-shrink:0; }
+.archive-eyebrow { color:#e9bd69; font:10px/1.7 'Silkscreen',monospace; letter-spacing:1.6px; }
+.archive-dialog button { font:12px/1.5 'Silkscreen',monospace; cursor:pointer; }
+.archive-close { background:transparent; border:1px solid #6b5b7d; border-radius:6px; color:#eee; padding:2px 10px; font-size:24px!important; }
+.archive-title { color:#fff!important; font:clamp(18px,3vw,25px)/1.4 'Silkscreen',monospace!important; margin:8px 20px 16px!important; letter-spacing:0!important; flex-shrink:0; }
+.archive-perspective { perspective:1400px; flex:1; min-height:0; margin:0 14px; }
+.archive-flipper { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .6s cubic-bezier(.2,.7,.2,1); }
+.archive-flipper.is-flipped { transform:rotateY(180deg); }
+.archive-face { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden; border:1px solid #574566; border-radius:10px; overflow-y:auto; overscroll-behavior:contain; scrollbar-width:thin; scrollbar-color:#9d80b4 #181626; }
+.archive-front { background:radial-gradient(ellipse at 50% 20%,#4e326c,#171527 65%); padding:24px; text-align:center; }
+.archive-art { position:relative; display:grid; place-items:center; min-height:200px; height:45%; }
+.archive-art img { position:relative; width:100%; height:100%; max-height:270px; object-fit:contain; image-rendering:pixelated; filter:drop-shadow(0 0 18px #ad7afa88); }
+.archive-orbit { position:absolute; width:190px; height:190px; border:1px solid #d7b46766; border-radius:50%; box-shadow:0 0 0 20px #d7b4670a,0 0 0 42px #d7b46705; }
+.archive-summary { font-size:14px; line-height:1.8; margin:18px 0!important; }
+.archive-stamp { padding:12px 8px; color:#edc976; border-block:1px solid #d7b46755; font:11px/1.5 'Silkscreen',monospace; letter-spacing:2px; }
+.archive-flip-hint { font-size:11px; color:#c5b4d4; margin:16px 0 0!important; }
+.archive-back { background:#141323; transform:rotateY(180deg); padding:16px; text-align:left; }
+.archive-photo { margin:0 0 20px; }
+.archive-photo img { display:block; width:100%; height:220px; object-fit:contain; background:#05060d; border:1px solid #41364d; border-radius:5px; }
+.archive-photo figcaption { font-size:10px; line-height:1.7; color:#beb4cc; padding-top:8px; }
+.archive-photo figcaption span,.archive-photo figcaption a { display:block; margin-top:3px; }
+.archive-dialog a { color:#9ee5f0; text-underline-offset:3px; }
+.archive-photo-fallback { padding:30px 16px; background:#242036; font-size:13px; }
+.archive-facts { margin:0; display:grid; gap:10px; border-block:1px solid #50415e; padding:16px 0; }
+.archive-facts div { display:grid; grid-template-columns:80px 1fr; gap:12px; }
+.archive-facts dt { color:#e9bd69; font:10px/1.8 'Silkscreen',monospace; }
+.archive-facts dd { margin:0; font-size:13px; }
+.archive-section { margin:22px 0; }
+.archive-section h3 { color:#e9bd69; font:12px/1.6 'Silkscreen',monospace; margin:0 0 8px; }
+.archive-section p { margin:0; line-height:1.85; font-size:14px; }
+.archive-context { font-size:11px; color:#bfb3cc; border-left:2px solid #746089; padding-left:12px; }
+.archive-source { display:inline-block; margin:16px 0; font-size:12px; }
+.archive-actions { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:16px; flex-shrink:0; }
+.archive-side-label { font-size:9px; line-height:1.6; color:#c7b6d4; max-width:180px; }
+.archive-flip-button { padding:12px 16px; border:1px solid #f1cc81; background:#edc777; color:#191222; box-shadow:3px 3px 0 #5d452b; white-space:nowrap; }
+.archive-dialog :is(button,a,[tabindex]):focus-visible { outline:3px solid #8de7f4; outline-offset:3px; }
+@media(max-width:480px) { .archive-toolbar {padding:10px 14px 0}.archive-eyebrow{font-size:9px}.archive-title{margin:8px 14px 12px!important;font-size:19px!important}.archive-front{padding:16px}.archive-art{min-height:140px}.archive-photo img{height:180px}.archive-back{padding:12px}.archive-actions{padding:12px}.archive-facts div{grid-template-columns:65px 1fr;gap:8px}.archive-orbit{width:130px;height:130px}.archive-summary{font-size:13px}.archive-side-label{max-width:120px} }
+@media(prefers-reduced-motion:reduce) { .archive-flipper { transition:none; } }
+
+/* Original collector face uses the existing ex-card dimensions and styling. */
+.ex-card.archive-original .archive-original-flip { display:block; margin:4px auto 12px; padding:6px 12px; }
+.archive-details-view { flex:1; min-height:0; overflow-y:auto; overscroll-behavior:contain; margin:0 14px; transform:none; border:1px solid #574566; border-radius:10px; animation:archive-turn-in .3s ease-out; }
+@keyframes archive-turn-in { from { opacity:.3; transform:rotateY(-15deg); } to { opacity:1; transform:rotateY(0); } }
+@media(prefers-reduced-motion:reduce) { .archive-details-view { animation:none; } }
+
+/* Back face shares the original collector card palette and square borders. */
+.archive-dialog .archive-details-view { background:transparent; border-color:#fcd34d55; border-radius:0; }
+.archive-dialog .archive-photo img { border-color:#fcd34d55; border-radius:0; }
+.archive-dialog .archive-eyebrow, .archive-dialog .archive-facts dt, .archive-dialog .archive-section h3 { color:#fcd34d; }
+.archive-dialog .archive-facts { border-color:#fcd34d55; }
+.archive-dialog .archive-context { border-color:#fcd34d88; }
+.archive-dialog .archive-close, .archive-dialog .archive-flip-button { border:1px solid #6b6081; border-radius:0; background:#17172b; color:#eee; box-shadow:3px 3px 0 #000; }
+.archive-dialog button:hover { border-color:#fcd34d; }

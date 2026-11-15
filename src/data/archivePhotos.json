@@ -1,0 +1,155 @@
+{
+  "near": {
+    "src": "/images/deepspace/photos/near.jpg",
+    "alt": "NEAR Shoemaker during preflight preparation on Earth.",
+    "caption": "NEAR Shoemaker during preflight preparation on Earth.",
+    "credit": "NASA",
+    "nasaId": "9701593",
+    "sourceUrl": "https://images.nasa.gov/details/9701593",
+    "downloadUrl": "http://images-assets.nasa.gov/image/9701593/9701593~small.jpg"
+  },
+  "spirit": {
+    "src": "/images/mars/photos/spirit.jpg",
+    "alt": "Spirit and Opportunity during testing on Earth, February 2003.",
+    "caption": "Spirit and Opportunity during testing on Earth, February 2003.",
+    "credit": "NASA/JPL-Caltech",
+    "nasaId": "PIA23244",
+    "sourceUrl": "https://images.nasa.gov/details/PIA23244",
+    "downloadUrl": "http://images-assets.nasa.gov/image/PIA23244/PIA23244~medium.jpg"
+  },
+  "insight": {
+    "src": "/images/mars/photos/insight.jpg",
+    "alt": "InSight’s first selfie on Mars, assembled from 11 photographs, 2018.",
+    "caption": "InSight’s first selfie on Mars, assembled from 11 photographs, 2018.",
+    "credit": "NASA/JPL-Caltech",
+    "nasaId": "PIA22876",
+    "sourceUrl": "https://images.nasa.gov/details/PIA22876",
+    "downloadUrl": "http://images-assets.nasa.gov/image/PIA22876/PIA22876~medium.jpg"
+  },
+  "sojourner": {
+    "src": "/images/mars/photos/sojourner.jpg",
+    "alt": "Sojourner on Mars, photographed by Pathfinder.",
+    "caption": "Sojourner on Mars, photographed by Pathfinder.",
+    "credit": "NASA/JPL",
+    "nasaId": "PIA01551",
+    "sourceUrl": "https://images.nasa.gov/details/PIA01551",
+    "downloadUrl": "http://images-assets.nasa.gov/image/PIA01551/PIA01551~orig.jpg"
+  },
+  "kepler": {
+    "src": "/images/deepspace/photos/kepler.jpg",
+    "alt": "Kepler spacecraft in a clean room at Ball Aerospace before launch.",
+    "caption": "Kepler spacecraft in a clean room at Ball Aerospace before launch.",
+    "credit": "NASA",
+    "nasaId": "PIA11188",
+    "sourceUrl": "https://images.nasa.gov/details/PIA11188",
+    "downloadUrl": "http://images-assets.nasa.gov/image/PIA11188/PIA11188~medium.jpg"
+  },
+  "opportunity": {
+    "src": "/images/mars/photos/opportunity.jpg",
+    "alt": "Opportunity during assembly on Earth, April 2002.",
+    "caption": "Opportunity during assembly on Earth, April 2002.",
+    "credit": "NASA/JPL",
+    "nasaId": "PIA05839",
+    "sourceUrl": "https://images.nasa.gov/details/PIA05839",
+    "downloadUrl": "http://images-assets.nasa.gov/image/PIA05839/PIA05839~orig.jpg"
+  },
+  "pioneer10": {
+    "src": "/images/deepspace/photos/pioneer10.jpg",
+    "alt": "Pioneer 10 during final assembly on Earth.",
+    "caption": "Pioneer 10 during final assembly on Earth.",
+    "credit": "NASA Ames / TRW",
+    "nasaId": "ARC-1973-AC73-9019",
+    "sourceUrl": "https://images.nasa.gov/details/ARC-1973-AC73-9019",
+    "downloadUrl": "http://images-assets.nasa.gov/image/ARC-1973-AC73-9019/ARC-1973-AC73-9019~medium.jpg"
+  },
+  "phoenix": {
+    "src": "/images/mars/photos/phoenix.jpg",
+    "alt": "Phoenix Mars Lander during prelaunch preparations on Earth, 2007.",
+    "caption": "Phoenix Mars Lander during prelaunch preparations on Earth, 2007.",
+    "credit": "NASA / Kim Shiflett",
+    "nasaId": "KSC-07pd1651",
+    "sourceUrl": "https://images.nasa.gov/details/KSC-07pd1651",
+    "downloadUrl": "http://images-assets.nasa.gov/image/KSC-07pd1651/KSC-07pd1651~medium.jpg"
+  },
+  "ingenuity": {
+    "src": "/images/mars/photos/ingenuity.jpg",
+    "alt": "Ingenuity inspected in a space simulation chamber on Earth.",
+    "caption": "Ingenuity inspected in a space simulation chamber on Earth.",
+    "credit": "NASA/JPL-Caltech",
+    "nasaId": "PIA23969",
+    "sourceUrl": "https://images.nasa.gov/details/PIA23969",
+    "downloadUrl": "http://images-assets.nasa.gov/image/PIA23969/PIA23969~medium.jpg"
+  },
+  "pioneer11": {
+    "src": "/images/deepspace/photos/pioneer11.jpg",
+    "alt": "Pioneer 11 launch, 1973. This is a launch photograph, not a close-up of the probe.",
+    "caption": "Pioneer 11 launch, 1973. This is a launch photograph, not a close-up of the probe.",
+    "credit": "NASA",
+    "nasaId": "9139575",
+    "sourceUrl": "https://images.nasa.gov/details/9139575",
+    "downloadUrl": "http://images-assets.nasa.gov/image/9139575/9139575~medium.jpg"
+  },
+  "apollo": {
+    "src": "/images/moon/photos/apollo.jpg",
+    "alt": "Apollo 11 Eagle on the lunar surface, 1969.",
+    "caption": "Apollo 11 Eagle on the lunar surface, 1969.",
+    "credit": "NASA",
+    "nasaId": "6901254",
+    "sourceUrl": "https://images.nasa.gov/details/6901254",
+    "downloadUrl": "http://images-assets.nasa.gov/image/6901254/6901254~medium.jpg"
+  },
+  "lrv": {
+    "src": "/images/moon/photos/lrv.jpg",
+    "alt": "Apollo 15 rover beside David Scott near Hadley Delta, 1971.",
+    "caption": "Apollo 15 rover beside David Scott near Hadley Delta, 1971.",
+    "credit": "NASA / James Irwin",
+    "nasaId": "as15-85-11437",
+    "sourceUrl": "https://images.nasa.gov/details/as15-85-11437",
+    "downloadUrl": "http://images-assets.nasa.gov/image/as15-85-11437/as15-85-11437~medium.jpg"
+  },
+  "dawn": {
+    "src": "/images/deepspace/photos/dawn.jpg",
+    "alt": "Dawn in a clean room before launch, 2007.",
+    "caption": "Dawn in a clean room before launch, 2007.",
+    "credit": "NASA / George Shelton",
+    "nasaId": "KSC-07pd0864",
+    "sourceUrl": "https://images.nasa.gov/details/KSC-07pd0864",
+    "downloadUrl": "http://images-assets.nasa.gov/image/KSC-07pd0864/KSC-07pd0864~medium.jpg"
+  },
+  "alsep": {
+    "src": "/images/moon/photos/alsep.jpg",
+    "alt": "Apollo 12 ALSEP instruments deployed on the Moon, 1969.",
+    "caption": "Apollo 12 ALSEP instruments deployed on the Moon, 1969.",
+    "credit": "NASA / Alan Bean",
+    "nasaId": "as12-47-6918",
+    "sourceUrl": "https://images.nasa.gov/details/as12-47-6918",
+    "downloadUrl": "http://images-assets.nasa.gov/image/as12-47-6918/as12-47-6918~medium.jpg"
+  },
+  "surveyor": {
+    "src": "/images/moon/photos/surveyor.jpg",
+    "alt": "Surveyor 3 photographed during the Apollo 12 surface visit, 1969.",
+    "caption": "Surveyor 3 photographed during the Apollo 12 surface visit, 1969.",
+    "credit": "NASA",
+    "nasaId": "as12-48-7121",
+    "sourceUrl": "https://images.nasa.gov/details/as12-48-7121",
+    "downloadUrl": "http://images-assets.nasa.gov/image/as12-48-7121/as12-48-7121~medium.jpg"
+  },
+  "viking1": {
+    "src": "/images/mars/photos/viking1.jpg",
+    "alt": "Viking 1 lander preparation at Kennedy Space Center, before launch.",
+    "caption": "Viking 1 lander preparation at Kennedy Space Center, before launch.",
+    "credit": "NASA",
+    "nasaId": "101-KSC-75P-12",
+    "sourceUrl": "https://images.nasa.gov/details/101-KSC-75P-12",
+    "downloadUrl": "http://images-assets.nasa.gov/image/101-KSC-75P-12/101-KSC-75P-12~medium.jpg"
+  },
+  "viking2": {
+    "src": "/images/mars/photos/viking2.jpg",
+    "alt": "Viking 2 lander inspected at Kennedy Space Center, before launch.",
+    "caption": "Viking 2 lander inspected at Kennedy Space Center, before launch.",
+    "credit": "NASA",
+    "nasaId": "101-KSC-75P-110",
+    "sourceUrl": "https://images.nasa.gov/details/101-KSC-75P-110",
+    "downloadUrl": "http://images-assets.nasa.gov/image/101-KSC-75P-110/101-KSC-75P-110~medium.jpg"
+  }
+}
